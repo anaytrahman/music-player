@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #E1E6EC;
+}
+
+.main-container {
+    padding: 15px;
+}
+
+.music-player-container {
+    width: 380px;
+    padding: 16px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+    box-shadow: 5px 5px 11px #A2B1C6, -5px -5px 11px #fff;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    transform: translate(-50%, -50%);
+}
+
+.details-wrapper img {
+    width: 70%;
+}
+
+.music-player-container,
+.level,
+.btn-wrapper button {
+    background-color: #E1E6EC;
+}
+
+.level {
+    width: 80%;
+    -webkit-appearance: none;
+    border-radius: 12px 0;
+}
+
+.btn-wrapper button {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    padding: 16px;
+    border-radius: 8px;
+    border: none;
+    margin: 10px 9px;
+    /* text-align: left; */
+}
+
+.level,
+.btn-wrapper>* {
+    box-shadow: 2px 2px 5px #A2B1C6, -2px -2px 11px #fff;
+}
+
+.btn-wrapper button img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 42%;
+    height: 42%;
+    transform: translate(-50%, -50%);
+}
